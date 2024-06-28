@@ -89,6 +89,25 @@ h1,h2
   border-radius: 5px;  
   }
 
+/**** Food order online image ***/
+.image-row {
+    display: flex;
+}
+
+.orderfoodimg {
+    height:50px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin-right: 10px;
+}
+
+.orderfoodimg:hover {
+    transform: scale(1.05);
+}
+
+
 /*** Footer Fixed Navbar seen in small device**/
 
 .footerfixednav
